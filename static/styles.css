@@ -17,5 +17,14 @@
 }
 
 nav {
-  background-color: #dcdcddff;
+  background-color: #46494cff;
+}
+
+.main {
+  background-image: url("C:/git/project0/static/images/desert.JPG");
+  height: 600px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

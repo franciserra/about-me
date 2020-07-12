@@ -17,8 +17,16 @@ $color5: #1985a1ff; /*blue-green*/
   }
 }
 
-
-
 nav {
-  background-color: $color1;
+  background-color: $color3;
+
+}
+
+.main {
+  background-image: url("C:/git/project0/static/images/desert.JPG");
+  height: 600px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
