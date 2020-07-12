@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="C:\git\project0\static\styles.css">
+    </head>
+    <body>
+
+      <nav role="navigation" class="container-fluid">
+          <div id="menuToggle">
+            <!-- A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it -->
+            <input type="checkbox" />
+            <!--Some spans to act as a hamburger. -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <!--Too bad the menu has to be inside of the button but hey, it's pure CSS magic. -->
+            <ul id="menu" class="menu-font">
+              <a href="#"><li>Home</li></a>
+              <a href="#"><li>Portfolio</li></a>
+              <a href="#"><li>Experience</li></a>
+              <a href="#"><li>Education</li></a>
+              <a href="#"><li>Contacts</li></a>
+            </ul>
+          </div>
+        </nav>
+
+
+        <main class="home container-fluid" role="main">
+          <div class="row">
+            <div class="col-sm" id="hometitle">
+              <h1>THIS IS WHO I AM</h1>
+              <h3>Francesco Seraghiti</h3>
+            </div>
+          </div>
+        </main>
+        <div class="row topspacing">
+          <div class="col-sm leadp">
+            <p>
+                I am an enthusiastic and resolute newly graduate with a multidisciplinary background.
+                I recently graduated from the Master Degree in Business Administration and E-Business from Copenhagen Business School, where I wrote my thesis on the topic of Privacy by Design
+            </p>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
