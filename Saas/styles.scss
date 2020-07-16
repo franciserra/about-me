@@ -39,6 +39,17 @@ p {
   background-size: cover;
 }
 
+/*STYLING CLASSES*/
+.small-width {
+  width: 70%;
+}
+
+.centerd {
+  align-content: center;
+  justify-content: center;
+  display: flex !important;
+}
+
 #title {
   text-align: center;
   margin-top: 260px;
@@ -49,46 +60,43 @@ p {
   margin-top: 20px;
 }
 
+
+
+.basic-grid h3{
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+
 footer {
-    height: 50px;
+    height: 40px;
     bottom: 0;
     width: 100%;
     background-color: $color4;
-    padding-top: 10px;
-
+    padding-top: 5px;
     display: flex;
-
+    margin-top: 60px;
 }
 
-.centerd {
-  align-content: center;
-  justify-content: center;
-}
 
 /*SOCİAL İCONS*/
-
 /* footer social icons */
-
 ul.social-network {
   list-style: none;
   margin: auto auto;
   width: 100%;
   padding: 0;
+
 }
 
 ul.social-network li {
   display: inline;
-  margin: 0 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-
 /* footer social icons */
-
-
 .social-circle li a {
   display: inline-block;
-  position: relative;
-  margin: 0 auto 0 auto;
   border-radius: 50%;
   text-align: center;
   width: 20px;
@@ -97,7 +105,6 @@ ul.social-network li {
 }
 
 .social-circle li i {
-  margin: 0;
   line-height: 20px;
   text-align: center;
 }
