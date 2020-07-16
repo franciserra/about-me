@@ -39,7 +39,7 @@ p {
 }
 
 /*STYLING CLASSES*/
-.small-width {
+.small-width .desktop-only {
   width: 70%;
 }
 

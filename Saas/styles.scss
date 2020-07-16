@@ -41,7 +41,9 @@ p {
 
 /*STYLING CLASSES*/
 .small-width {
-  width: 70%;
+  .desktop-only{
+    width: 70%;
+  }
 }
 
 .centerd {
