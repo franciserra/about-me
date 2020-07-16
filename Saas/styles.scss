@@ -5,6 +5,15 @@ $color3: #46494cff; /*dark grey*/
 $color4: #4c5c68ff; /*darkish blue-green*/
 $color5: #1985a1ff; /*blue-green*/
 
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+
 @media screen and (min-width: 1030px) {
   .mobile-only {
     display: none;
@@ -17,16 +26,86 @@ $color5: #1985a1ff; /*blue-green*/
   }
 }
 
-nav {
-  background-color: $color3;
-
+.nav {
+  background-color: none;
 }
 
 .main {
   background-image: url("C:/git/project0/static/images/desert.JPG");
-  height: 600px;
+  height: 650px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#title {
+  text-align: center;
+  margin-top: 260px;
+  color: white;
+}
+
+#explore {
+  margin-top: 20px;
+}
+
+footer {
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: $color4;
+    padding-top: 10px;
+
+    display: flex;
+
+}
+
+.centerd {
+  align-content: center;
+  justify-content: center;
+}
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  margin: auto auto;
+  width: 100%;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 20px;
+  text-align: center;
+}
+
+.social-circle i {
+  color: #595959;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
 }
