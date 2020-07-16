@@ -1,25 +1,20 @@
 # Project 0
 
-Web Programming with Python and JavaScript
+Francesco Seraghiti
 
-four different .html pages,
+This is the beginning of a personal cv website
 
-one list (ordered or unordered)
-one table
-one image
+index.html is the landing page with main image, name and a small text about me
 
-one stylesheet file
- five different CSS properties,
-five different types of CSS selectors
-use the #id selector at least once
-.class selector at least once.
-one mobile-responsive @media query
-use Bootstrap 4
-one Bootstrap component,
-two Bootstrap columns
+portfolio.html will store all the link to my personal projects (perhaps many form this course)
 
-one SCSS variable
-one example of SCSS nesting
-one use of SCSS inheritance.
+education.html stores in a table the list of my academic experiences
 
-EADME.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+experience.html stores in a table the list of my professional experiences
+
+contacts.html is where users can find and click on my contacts
+
+
+all pages have a responsive navigation menu showing the active page
+
+on the bottom there is a footer with links to my social profiles 
