@@ -129,6 +129,10 @@ card-link {
   line-height: 40px;
 }
 
+.contacts .col-cm {
+  margin-bottom: 30px;
+}
+
 footer {
   height: 40px;
   bottom: 0;
