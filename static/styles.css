@@ -109,6 +109,11 @@ card-link {
   color: #A7614B;
 }
 
+.contacts {
+  text-align: center;
+  justify-content: center;
+}
+
 .contacts i {
   font-size: 25px;
   color: #3A4144;
