@@ -125,7 +125,13 @@ card-link {
 
   i {
     font-size: 25px;
-    color: $coloraction;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: $coloraction;
+    line-height: 20px;
   }
 }
 

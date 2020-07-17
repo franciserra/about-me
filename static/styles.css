@@ -120,7 +120,13 @@ card-link {
 
 .contacts i {
   font-size: 25px;
-  color: #A7614B;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background-color: #A7614B;
+  line-height: 20px;
 }
 
 footer {
