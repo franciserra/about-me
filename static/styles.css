@@ -73,6 +73,10 @@ p {
   color: #648C7C;
 }
 
+.card button:hover {
+  color: #181514;
+}
+
 footer {
   height: 40px;
   bottom: 0;
