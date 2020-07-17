@@ -123,10 +123,10 @@ card-link {
   color: white;
   border-radius: 50%;
   text-align: center;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   background-color: #A7614B;
-  line-height: 20px;
+  line-height: 40px;
 }
 
 footer {
