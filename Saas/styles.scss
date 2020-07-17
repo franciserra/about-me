@@ -22,6 +22,14 @@ a {
   color: $coloraction !important;
 }
 
+.card a{
+  color: $coloraction;
+}
+
+card-link {
+  color: $coloraction;
+}
+
 .container h3 {
     color: $coloraction;
 }
