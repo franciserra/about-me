@@ -16,18 +16,6 @@ p {
   font-size: 14px;
 }
 
-a {
-  color: #A7614B !important;
-}
-
-.card a {
-  color: #A7614B;
-}
-
-card-link {
-  color: #A7614B;
-}
-
 .container h3 {
   color: #A7614B;
 }
@@ -99,6 +87,22 @@ button {
 
 .card button:hover {
   color: #3A4144;
+}
+
+.container {
+  margin-bottom: 60px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card a {
+  color: #A7614B;
+}
+
+card-link {
+  color: #A7614B;
 }
 
 footer {

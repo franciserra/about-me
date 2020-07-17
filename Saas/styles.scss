@@ -18,18 +18,6 @@ p {
   font-size: 14px;
 }
 
-a {
-  color: $coloraction !important;
-}
-
-.card a{
-  color: $coloraction;
-}
-
-card-link {
-  color: $coloraction;
-}
-
 .container h3 {
     color: $coloraction;
 }
@@ -104,6 +92,22 @@ appearance: none;
 
 .card button:hover {
     color: $colordark;
+}
+
+.container {
+    margin-bottom: 60px;
+}
+
+.card {
+  margin-top: 20px;
+
+  a{
+    color: $coloraction;
+  }
+}
+
+card-link {
+  color: $coloraction;
 }
 
 footer {
