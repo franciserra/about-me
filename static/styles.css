@@ -24,7 +24,7 @@ a {
   color: #A7614B;
 }
 
-input {
+button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -134,9 +134,9 @@ ul.social-network li {
 }
 
 .social-circle i {
-  color: #A7614B;
+  color: #3A4144;
 }
 
 .social-network a {
-  background-color: white;
+  background-color: #A7614B;
 }

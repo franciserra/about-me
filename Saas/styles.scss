@@ -26,7 +26,7 @@ a {
     color: $coloraction;
 }
 
-input {
+button {
 -webkit-appearance: none;
 -moz-appearance: none;
 appearance: none;
@@ -141,9 +141,9 @@ ul.social-network li {
 }
 
 .social-circle i {
-  color: $coloraction;
+  color: $colordark;
 }
 
 .social-network a {
-  background-color: white;
+  background-color: $coloraction;
 }
