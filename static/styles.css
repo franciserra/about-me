@@ -81,14 +81,6 @@ button {
   margin-top: 30px;
 }
 
-.card button {
-  color: #A7614B;
-}
-
-.card button:hover {
-  color: #3A4144;
-}
-
 .container {
   margin-bottom: 60px;
 }
@@ -97,8 +89,20 @@ button {
   margin-top: 20px;
 }
 
+.card button {
+  color: #A7614B;
+}
+
+.card button:hover {
+  color: #3A4144;
+}
+
 .card a {
   color: #A7614B;
+}
+
+.card ul {
+  font-size: 12px;
 }
 
 card-link {

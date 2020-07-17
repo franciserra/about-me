@@ -86,14 +86,6 @@ appearance: none;
    margin-top: 30px;
 }
 
-.card button {
-    color: $coloraction;
-}
-
-.card button:hover {
-    color: $colordark;
-}
-
 .container {
     margin-bottom: 60px;
 }
@@ -101,9 +93,22 @@ appearance: none;
 .card {
   margin-top: 20px;
 
+  button {
+      color: $coloraction;
+  }
+
+  button:hover {
+      color: $colordark;
+  }
+
   a{
     color: $coloraction;
   }
+
+  ul {
+    font-size: 12px;
+  }
+
 }
 
 card-link {
