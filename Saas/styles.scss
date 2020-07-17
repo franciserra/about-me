@@ -22,12 +22,16 @@ a {
   color: $coloraction;
 }
 
-a:
-
-input[type="button"],
-.input-checkbox {
--webkit-appearance: none;
+.container h3 {
+    color: $coloraction;
 }
+
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 
 @media screen and (min-width: 1030px) {
   .mobile-only {
@@ -141,5 +145,5 @@ ul.social-network li {
 }
 
 .social-network a {
-  background-color: $white;
+  background-color: white;
 }

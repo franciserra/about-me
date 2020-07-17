@@ -3,20 +3,31 @@
 /*white*/
 /*blu*/
 /*dark */
-/*light-brown*/
 body {
   font-family: "Gill Sans", sans-serif;
-  background-color: #E9D4BB;
-  color: #181514;
+  color: #3A4144;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #A7614B;
 }
 
 p {
   font-size: 14px;
 }
 
-input[type="button"],
-.input-checkbox {
+a {
+  color: #A7614B;
+}
+
+.container h3 {
+  color: #A7614B;
+}
+
+input {
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @media screen and (min-width: 1030px) {
@@ -75,18 +86,18 @@ input[type="button"],
 }
 
 .card button {
-  color: #648C7C;
+  color: #A7614B;
 }
 
 .card button:hover {
-  color: #181514;
+  color: #3A4144;
 }
 
 footer {
   height: 40px;
   bottom: 0;
   width: 100%;
-  background-color: #648C7C;
+  background-color: #3A4144;
   padding-top: 5px;
   display: flex;
   position: fixed;
@@ -123,27 +134,9 @@ ul.social-network li {
 }
 
 .social-circle i {
-  color: #648C7C;
+  color: #A7614B;
 }
 
 .social-network a {
-  background-color: #E9D4BB;
-}
-
-#try1 {
-  height: 60px;
-  width: 60px;
-  background-color: #3A4144;
-}
-
-#try2 {
-  height: 60px;
-  width: 60px;
-  background-color: #A7614B;
-}
-
-#try3 {
-  height: 60px;
-  width: 60px;
-  background-color: #F1E9D3;
+  background-color: white;
 }
