@@ -15,6 +15,10 @@ p {
   font-size: 14px;
 }
 
+input[type="button"],
+.input-checkbox {
+-webkit-appearance: none;
+}
 
 @media screen and (min-width: 1030px) {
   .mobile-only {
@@ -74,11 +78,11 @@ p {
 }
 
 .card button {
-    color: $coloraction
+    color: $coloraction;
 }
 
 .card button:hover {
-    color: $colordark
+    color: $colordark;
 }
 
 footer {
