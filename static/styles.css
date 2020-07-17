@@ -1,12 +1,13 @@
 @charset "UTF-8";
 /*Color palette*/
-/*lighter grey*/
-/*light grety*/
-/*dark grey*/
-/*darkish blue-green*/
-/*blue-green*/
+/*white*/
+/*blu*/
+/*dark */
+/*light-brown*/
 body {
   font-family: "Gill Sans", sans-serif;
+  background-color: #E9D4BB;
+  color: #181514;
 }
 
 p {
@@ -72,7 +73,7 @@ footer {
   height: 40px;
   bottom: 0;
   width: 100%;
-  background-color: #4c5c68ff;
+  background-color: #181514;
   padding-top: 5px;
   display: flex;
   position: fixed;
@@ -109,9 +110,9 @@ ul.social-network li {
 }
 
 .social-circle i {
-  color: #595959;
+  color: #E9D4BB;
 }
 
 .social-network a {
-  background-color: #F9F9F9;
+  background-color: #648C7C;
 }

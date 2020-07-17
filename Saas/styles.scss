@@ -1,12 +1,14 @@
 /*Color palette*/
-$color1: #dcdcddff; /*lighter grey*/
-$color2: #c5c3c6ff; /*light grety*/
-$color3: #46494cff; /*dark grey*/
-$color4: #4c5c68ff; /*darkish blue-green*/
-$color5: #1985a1ff; /*blue-green*/
+$colorlight: #E9D4BB; /*white*/
+$coloraction: #648C7C; /*blu*/
+$colordark: #181514; /*dark */
+$colorbrown: #7E5C3E; /*light-brown*/
+
 
 body {
   font-family: "Gill Sans", sans-serif;
+  background-color: $colorlight;
+  color: $colordark;
 }
 
 p {
@@ -75,7 +77,7 @@ footer {
     height: 40px;
     bottom: 0;
     width: 100%;
-    background-color: $color4;
+    background-color: $colordark;
     padding-top: 5px;
     display: flex;
 
@@ -115,9 +117,9 @@ ul.social-network li {
 }
 
 .social-circle i {
-  color: #595959;
+  color: $colorlight;
 }
 
 .social-network a {
-  background-color: #F9F9F9;
+  background-color: $coloraction;
 }
