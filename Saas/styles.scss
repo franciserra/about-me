@@ -119,9 +119,13 @@ card-link {
   text-align: center;
   justify-content: center;
 
+  a {
+    color:$colordark;
+  }
+
   i {
     font-size: 25px;
-    color: $colordark;
+    color: $coloraction;
   }
 }
 

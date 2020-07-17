@@ -114,9 +114,13 @@ card-link {
   justify-content: center;
 }
 
+.contacts a {
+  color: #3A4144;
+}
+
 .contacts i {
   font-size: 25px;
-  color: #3A4144;
+  color: #A7614B;
 }
 
 footer {
