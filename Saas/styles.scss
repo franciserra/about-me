@@ -4,6 +4,11 @@ $coloraction: #648C7C; /*blu*/
 $colordark: #181514; /*dark */
 $colorbrown: #7E5C3E; /*light-brown*/
 
+$color1: #3A4144;
+$color2: #A7614B;
+$color3: #F1E9D3;
+
+
 
 body {
   font-family: "Gill Sans", sans-serif;
@@ -133,4 +138,22 @@ ul.social-network li {
 
 .social-network a {
   background-color: $colorlight;
+}
+
+#try1{
+  height: 60px;
+  width: 60px;
+  background-color: $color1;
+}
+
+#try2{
+  height: 60px;
+  width: 60px;
+  background-color: $color2;
+}
+
+#try3{
+  height: 60px;
+  width: 60px;
+  background-color: $color3;
 }

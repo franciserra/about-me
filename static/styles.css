@@ -129,3 +129,21 @@ ul.social-network li {
 .social-network a {
   background-color: #E9D4BB;
 }
+
+#try1 {
+  height: 60px;
+  width: 60px;
+  background-color: #3A4144;
+}
+
+#try2 {
+  height: 60px;
+  width: 60px;
+  background-color: #A7614B;
+}
+
+#try3 {
+  height: 60px;
+  width: 60px;
+  background-color: #F1E9D3;
+}
