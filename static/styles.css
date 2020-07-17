@@ -17,7 +17,7 @@ p {
 }
 
 a {
-  color: #A7614B;
+  color: #A7614B !important;
 }
 
 .container h3 {
