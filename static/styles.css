@@ -109,6 +109,11 @@ card-link {
   color: #A7614B;
 }
 
+.contacts i {
+  font-size: 25px;
+  color: #3A4144;
+}
+
 footer {
   height: 40px;
   bottom: 0;
