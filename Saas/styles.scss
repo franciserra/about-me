@@ -73,14 +73,17 @@ p {
    margin-top: 30px;
 }
 
+.card button {
+    color: $coloraction
+}
+
 footer {
     height: 40px;
     bottom: 0;
     width: 100%;
-    background-color: $colordark;
+    background-color: $coloraction;
     padding-top: 5px;
     display: flex;
-
     position: fixed;
 }
 
@@ -117,9 +120,9 @@ ul.social-network li {
 }
 
 .social-circle i {
-  color: $colorlight;
+  color: $coloraction;
 }
 
 .social-network a {
-  background-color: $coloraction;
+  background-color: $colorlight;
 }
