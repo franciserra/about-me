@@ -99,6 +99,7 @@ a {
 
 .btn-outline-primary {
   border-color:  $coloraction !important;
+  color: $coloraction !important;
   a {
     color: $coloraction !important;
   }
@@ -107,6 +108,7 @@ a {
 .btn-outline-primary:hover {
   background-color: $colorlight !important;
   border-color:  $coloraction !important;
+  color: $coloraction !important;
   a {
     color: $coloraction !important;
   }
