@@ -84,7 +84,11 @@ button {
 btn-outline-dark {
   border-color: #3A4144;
   color: #3A4144;
-  margin: 5px;
+}
+
+btn-outline-dark:hover {
+  border-color: #A7614B;
+  color: #A7614B;
 }
 
 .card {

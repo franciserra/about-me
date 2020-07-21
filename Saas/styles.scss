@@ -91,7 +91,11 @@ button {
 btn-outline-dark {
   border-color: $colordark;
   color: $colordark;
-  margin: 5px;
+}
+
+btn-outline-dark:hover {
+  border-color: $coloraction;
+  color: $coloraction;
 }
 
 .card {
