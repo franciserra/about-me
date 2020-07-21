@@ -140,20 +140,21 @@ card-link {
   line-height: 40px;
 }
 
-.contacts .profile {
+.contacts col-cm {
+  margin-bottom: 30px;
+}
+
+.profile {
   width: 100px;
   height: 100px;
   margin-bottom: 20px;
-}
-
-.contacts .col-cm {
-  margin-bottom: 30px;
 }
 
 .next {
   text-align: center;
   color: #A7614B;
   align-content: center;
+  border-color: #A7614B;
 }
 
 .next i {
@@ -162,11 +163,6 @@ card-link {
 
 .next:hover {
   color: #3A4144;
-}
-
-btn-outline-primary {
-  color: #A7614B;
-  border-color: #A7614B;
 }
 
 footer {

@@ -145,21 +145,23 @@ card-link {
     line-height: 40px;
   }
 
-  .profile {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-  }
-
-  .col-cm {
+  col-cm {
     margin-bottom: 30px;
   }
 }
+
+.profile {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
 
 .next {
   text-align: center;
   color: $coloraction;
   align-content: center;
+  border-color:  $coloraction;
 
   i {
     color: $coloraction;
@@ -170,10 +172,6 @@ card-link {
   color: $colordark;
 }
 
-btn-outline-primary {
-  color: $coloraction;
-  border-color:  $coloraction;
-}
 
 footer {
     height: 40px;
