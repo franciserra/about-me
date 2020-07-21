@@ -142,12 +142,17 @@ card-link {
     line-height: 40px;
   }
 
+  .profile {
+    width: 100px;
+    height: 100px;
+  }
+
   .col-cm {
     margin-bottom: 30px;
   }
 }
 
-.next a{
+.next {
   text-align: center;
   color: $coloraction;
 }

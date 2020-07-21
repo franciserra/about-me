@@ -136,11 +136,16 @@ card-link {
   line-height: 40px;
 }
 
+.contacts .profile {
+  width: 100px;
+  height: 100px;
+}
+
 .contacts .col-cm {
   margin-bottom: 30px;
 }
 
-.next a {
+.next {
   text-align: center;
   color: #A7614B;
 }
