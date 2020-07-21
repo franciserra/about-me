@@ -95,6 +95,11 @@ btn-outline-dark:hover {
   color: #A7614B;
 }
 
+btn-outline-primary {
+  color: #A7614B;
+  border-color: #A7614B;
+}
+
 .card {
   margin-top: 20px;
 }
@@ -146,21 +151,6 @@ card-link {
 
 .profile {
   margin-bottom: 20px;
-}
-
-.next {
-  text-align: center;
-  color: #A7614B;
-  align-content: center;
-  border-color: #A7614B;
-}
-
-.next i {
-  color: #A7614B;
-}
-
-.next:hover {
-  color: #3A4144;
 }
 
 footer {

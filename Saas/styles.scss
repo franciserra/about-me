@@ -100,6 +100,11 @@ btn-outline-dark:hover {
   color: $coloraction;
 }
 
+btn-outline-primary {
+  color: $coloraction;
+  border-color:  $coloraction;
+}
+
 .card {
   margin-top: 20px;
 
@@ -154,21 +159,6 @@ card-link {
     margin-bottom: 20px;
 }
 
-
-.next {
-  text-align: center;
-  color: $coloraction;
-  align-content: center;
-  border-color:  $coloraction;
-
-  i {
-    color: $coloraction;
-  }
-}
-
-.next:hover {
-  color: $colordark;
-}
 
 
 footer {
