@@ -90,22 +90,22 @@ button {
     margin-bottom: 60px;
 }
 
-btn-outline-dark {
+.btn-outline-dark {
   border-color: $colordark;
   color: $colordark;
 }
 
-btn-outline-dark:hover {
+.btn-outline-dark:hover {
   border-color: $coloraction !important;
   color: $coloraction !important;
 }
 
-btn-outline-primary {
-  color: $coloraction !important;
+.btn-outline-primary {
+  color: $coloraction ;
   border-color:  $coloraction !important;
 }
 
-btn-outline-primary:hover {
+.btn-outline-primary:hover {
   background-color: $colorlight !important;
 }
 

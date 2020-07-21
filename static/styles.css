@@ -85,22 +85,22 @@ button {
   margin-bottom: 60px;
 }
 
-btn-outline-dark {
+.btn-outline-dark {
   border-color: #3A4144;
   color: #3A4144;
 }
 
-btn-outline-dark:hover {
+.btn-outline-dark:hover {
   border-color: #A7614B !important;
   color: #A7614B !important;
 }
 
-btn-outline-primary {
-  color: #A7614B !important;
+.btn-outline-primary {
+  color: #A7614B;
   border-color: #A7614B !important;
 }
 
-btn-outline-primary:hover {
+.btn-outline-primary:hover {
   background-color: #F1E9D3 !important;
 }
 
