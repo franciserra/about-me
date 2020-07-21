@@ -143,6 +143,7 @@ card-link {
 .contacts .profile {
   width: 100px;
   height: 100px;
+  margin-bottom: 20px;
 }
 
 .contacts .col-cm {
@@ -161,6 +162,11 @@ card-link {
 
 .next:hover {
   color: #3A4144;
+}
+
+btn-outline-primary {
+  color: #A7614B;
+  border-color: #A7614B;
 }
 
 footer {

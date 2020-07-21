@@ -148,6 +148,7 @@ card-link {
   .profile {
     width: 100px;
     height: 100px;
+    margin-bottom: 20px;
   }
 
   .col-cm {
@@ -167,6 +168,11 @@ card-link {
 
 .next:hover {
   color: $colordark;
+}
+
+btn-outline-primary {
+  color: $coloraction;
+  border-color:  $coloraction;
 }
 
 footer {
