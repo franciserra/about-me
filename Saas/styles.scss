@@ -28,21 +28,18 @@ button {
   appearance: none;
 }
 
-
-@media screen and (min-width: 1030px) {
-  .mobile-only {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1030px) {
-  .desktop-only{
-    display: none;
-  }
+.first {
+  margin-top: 40px;
 }
 
 .nav {
   background-color: none;
+}
+
+@media(max-width: 992px) {
+    .navbar-expand {
+        background-color: white !important;
+    }
 }
 
 .main {
