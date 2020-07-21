@@ -68,6 +68,9 @@ a {
 
 #explore {
   margin-top: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .skills {
