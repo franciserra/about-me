@@ -93,25 +93,18 @@ a {
 }
 
 .btn-outline-dark:hover {
-  border-color: $coloraction !important;
-  color: $coloraction !important;
+  background-color: $coloraction;
 }
 
 .btn-outline-primary {
   border-color:  $coloraction !important;
   color: $coloraction !important;
-  a {
-    color: $coloraction !important;
-  }
 }
 
 .btn-outline-primary:hover {
   background-color: $colorlight !important;
   border-color:  $coloraction !important;
   color: $coloraction !important;
-  a {
-    color: $coloraction !important;
-  }
 }
 
 .card {

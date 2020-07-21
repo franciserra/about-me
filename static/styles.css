@@ -89,8 +89,7 @@ a {
 }
 
 .btn-outline-dark:hover {
-  border-color: #A7614B !important;
-  color: #A7614B !important;
+  background-color: #A7614B;
 }
 
 .btn-outline-primary {
@@ -98,17 +97,9 @@ a {
   color: #A7614B !important;
 }
 
-.btn-outline-primary a {
-  color: #A7614B !important;
-}
-
 .btn-outline-primary:hover {
   background-color: #F1E9D3 !important;
   border-color: #A7614B !important;
-  color: #A7614B !important;
-}
-
-.btn-outline-primary:hover a {
   color: #A7614B !important;
 }
 
