@@ -29,7 +29,7 @@ button {
 }
 
 .first {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .nav {
@@ -100,7 +100,7 @@ button {
 .btn-outline-primary {
   border-color:  $coloraction !important;
   a {
-    color: $coloraction;
+    color: $coloraction !important;
   }
 }
 
@@ -108,7 +108,7 @@ button {
   background-color: $colorlight !important;
   border-color:  $coloraction !important;
   a {
-    color: $coloraction;
+    color: $coloraction !important;
   }
 }
 

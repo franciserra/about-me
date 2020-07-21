@@ -27,7 +27,7 @@ button {
 }
 
 .first {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .nav {
@@ -98,7 +98,7 @@ button {
 }
 
 .btn-outline-primary a {
-  color: #A7614B;
+  color: #A7614B !important;
 }
 
 .btn-outline-primary:hover {
@@ -107,7 +107,7 @@ button {
 }
 
 .btn-outline-primary:hover a {
-  color: #A7614B;
+  color: #A7614B !important;
 }
 
 .card {
