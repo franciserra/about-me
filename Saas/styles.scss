@@ -101,12 +101,18 @@ button {
 }
 
 .btn-outline-primary {
-  color: $coloraction ;
   border-color:  $coloraction !important;
+  a {
+    color: $coloraction;
+  }
 }
 
 .btn-outline-primary:hover {
   background-color: $colorlight !important;
+  border-color:  $coloraction !important;
+  a {
+    color: $coloraction;
+  }
 }
 
 .card {

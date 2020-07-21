@@ -96,12 +96,20 @@ button {
 }
 
 .btn-outline-primary {
-  color: #A7614B;
   border-color: #A7614B !important;
+}
+
+.btn-outline-primary a {
+  color: #A7614B;
 }
 
 .btn-outline-primary:hover {
   background-color: #F1E9D3 !important;
+  border-color: #A7614B !important;
+}
+
+.btn-outline-primary:hover a {
+  color: #A7614B;
 }
 
 .card {
