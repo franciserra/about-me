@@ -91,13 +91,17 @@ btn-outline-dark {
 }
 
 btn-outline-dark:hover {
-  border-color: #A7614B;
-  color: #A7614B;
+  border-color: #A7614B !important;
+  color: #A7614B !important;
 }
 
 btn-outline-primary {
-  color: #A7614B;
-  border-color: #A7614B;
+  color: #A7614B !important;
+  border-color: #A7614B !important;
+}
+
+btn-outline-primary:hover {
+  background-color: #F1E9D3 !important;
 }
 
 .card {
@@ -147,10 +151,6 @@ card-link {
 
 .contacts col-cm {
   margin-bottom: 30px;
-}
-
-.profile {
-  margin-bottom: 20px;
 }
 
 footer {

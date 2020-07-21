@@ -96,13 +96,17 @@ btn-outline-dark {
 }
 
 btn-outline-dark:hover {
-  border-color: $coloraction;
-  color: $coloraction;
+  border-color: $coloraction !important;
+  color: $coloraction !important;
 }
 
 btn-outline-primary {
-  color: $coloraction;
-  border-color:  $coloraction;
+  color: $coloraction !important;
+  border-color:  $coloraction !important;
+}
+
+btn-outline-primary:hover {
+  background-color: $colorlight !important;
 }
 
 .card {
@@ -154,12 +158,6 @@ card-link {
     margin-bottom: 30px;
   }
 }
-
-.profile {
-    margin-bottom: 20px;
-}
-
-
 
 footer {
     height: 40px;
