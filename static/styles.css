@@ -85,6 +85,15 @@ button {
   margin-bottom: 60px;
 }
 
+.badge-secondary {
+  background-color: #F1E9D3;
+  border-color: #3A4144;
+  font-size: 16px;
+  color: #3A4144;
+  margin: 5px;
+  padding: 2px;
+}
+
 .card {
   margin-top: 20px;
 }
@@ -112,6 +121,7 @@ card-link {
 .contacts {
   text-align: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .contacts a {
