@@ -85,18 +85,10 @@ button {
   margin-bottom: 60px;
 }
 
-.badge-secondary {
-  background-color: #F1E9D3;
-  border-color: #3A4144;
-  font-size: 16px;
-  color: #3A4144;
-  margin: 5px;
-  padding: 2px;
-}
-
 btn-outline-dark {
   border-color: #3A4144;
   color: #3A4144;
+  margin: 5px;
 }
 
 .card {
