@@ -23,9 +23,9 @@ p {
 }
 
 button {
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 
@@ -97,6 +97,11 @@ appearance: none;
   color: $colordark;
   margin: 5px;
   padding: 2px;
+}
+
+btn-outline-dark {
+  border-color: $colordark;
+  color: $colordark;
 }
 
 .card {

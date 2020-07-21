@@ -94,6 +94,11 @@ button {
   padding: 2px;
 }
 
+btn-outline-dark {
+  border-color: #3A4144;
+  color: #3A4144;
+}
+
 .card {
   margin-top: 20px;
 }
