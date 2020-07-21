@@ -72,6 +72,10 @@ button {
   margin-top: 20px;
 }
 
+.skills {
+  margin-top: 30px;
+}
+
 .basic-grid h3 {
   margin-bottom: 20px;
   margin-top: 30px;
@@ -148,6 +152,15 @@ card-link {
 .next {
   text-align: center;
   color: #A7614B;
+  align-content: center;
+}
+
+.next i {
+  color: #A7614B;
+}
+
+.next:hover {
+  color: #3A4144;
 }
 
 footer {
