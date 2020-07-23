@@ -130,6 +130,10 @@ card-link {
   color: #A7614B;
 }
 
+card-body {
+  background-color: #F1E9D3;
+}
+
 .contacts {
   text-align: center;
   justify-content: center;
