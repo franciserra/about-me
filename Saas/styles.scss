@@ -42,6 +42,10 @@ a {
     }
 }
 
+.navbar-nav > a > .navbar-collapse {
+    background-color: green !important;
+  }
+
 .main {
   background-image: url("https://franciserra.github.io/about-me/static/images/desert.JPG");
   height: 650px;
